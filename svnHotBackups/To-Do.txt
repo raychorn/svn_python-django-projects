@@ -1,0 +1,3 @@
+# Encrypt the whole file rather than each file within the archive.
+
+# See this as a service - automated backups of SVN repos to a secure server (nearbyin) where there is a ton of disk space.

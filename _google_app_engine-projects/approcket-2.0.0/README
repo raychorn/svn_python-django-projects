@@ -1,0 +1,38 @@
+INSTALLATION
+============
+Please see Getting Started section here: http://code.google.com/p/approcket/
+
+RELEASE NOTES
+=============
+
+Version 2.0.0 - December 1, 2009
+--------------------------------
+  -	Separate thread per each entity - now different entities are replicated parallel, not in a row
+  - SEND_FIELDS_EXCLUDE configuration option 
+  - Bunch of bug-fixes
+
+
+Version 1.2.0 - December 17, 2008
+---------------------------------
+  - Fixed sending of lists
+  - Added support for embedded string lists (list that are stored in a single MySQL TEXT column as values separated by '|')
+
+
+Version 1.1.0 - December 14, 2008
+---------------------------------
+  - Fixed boolean value handling
+  - Added example
+  - Secured rocket URL via secret key exchange
+  - Added MySQL database engine configuration parameter
+  - Implemented BLOB support
+
+
+Version 1.0.1 - December 8, 2008
+---------------------------------
+  - Fixed logging for daemon mode (station.py -d)
+  - Improved logging for erroneous responses
+
+
+Version 1.0.0 - November 22, 2008
+---------------------------------
+  - First release version

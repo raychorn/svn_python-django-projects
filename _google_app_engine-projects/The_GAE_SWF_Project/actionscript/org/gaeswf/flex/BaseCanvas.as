@@ -1,0 +1,1 @@
+﻿package org.gaeswf.flex{	import mx.containers.Canvas;		import org.gaeswf.Service;		public class BaseCanvas extends Canvas	{		// Execute: Makes a service call		protected function execute(serviceName:String, ...args):void		{			// Add the current 			args.unshift(this);			args.unshift(serviceName);			Service.call.apply(Service.call, args);		}	}}

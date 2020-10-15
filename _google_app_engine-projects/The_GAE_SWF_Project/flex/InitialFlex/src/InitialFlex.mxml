@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eg:Application 
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:eg="org.gaeswf.examples.initial.*" 
+	xmlns:app="*"
+	layout="absolute"
+	width="550" height="550"
+	usePreloader="false"
+>
+	<mx:Style>
+Application {
+   backgroundColor: #ffffff;
+   backgroundGradientColors: #ffffff, #ffffff;
+   backgroundGradientAlphas: 1, 1;
+   color: #000066;
+}
+
+Panel {
+   borderStyle: solid;
+   borderColor: #999999;
+   borderAlpha: 0.94;
+   borderThickness: 1;
+   borderThicknessLeft: 1;
+   borderThicknessTop: 0;
+   borderThicknessBottom: 2;
+   borderThicknessRight: 1;
+   roundedBottomCorners: false;
+   cornerRadius: 14;
+   headerHeight: 34;
+   backgroundAlpha: 1;
+   highlightAlphas: 0.94, 0.12;
+   headerColors: #0033cc, #ffffff;
+   footerColors: #ffffff, #99b0eb;   
+   shadowDistance: 1;
+   shadowDirection: right;
+   dropShadowColor: #999999;   
+   titleStyleName: "mypanelTitle";
+}
+
+.mypanelTitle {
+   fontFamily: Arial;
+   fontSize: 16;
+   fontWeight: normal;
+}
+	</mx:Style>
+	
+	<mx:Label text="Initial proof of concept: Flex 3 client" fontSize="24" right="10" top="10" left="10"/>
+	<mx:Label y="47" fontSize="12" id="accessURLLabel" left="10" fontWeight="bold" width="260"/>
+	<mx:Label y="47" fontSize="12" id="authStatusLabel" textAlign="right" right="75" width="370"/>
+	
+	<!-- Main interface: tab navigator -->
+	<mx:TabNavigator id="tabNav" left="10" right="10" y="86" height="302">
+	
+		<!-- Home -->
+		<app:HomeScreen label="Home"/>
+			
+		<!-- Mouse wheel on OS X demo: external component -->
+		<app:MouseWheelScreen label="Mouse wheel" width="100%" height="100%" id="mouseWheel"/>
+		
+		<!-- Donate screen: Google checkout integration -->
+		<!--
+		<mx:Canvas label="Donate!" width="100%" height="100%">
+			<mx:Text left="10" top="5" right="10" bottom="444" fontWeight="normal" fontSize="18">
+				<mx:text>Donate!</mx:text>
+			</mx:Text>
+			<mx:Label x="10" y="35" text="Help support the project (demontrates Google Checkout integration)." width="508"/>
+			<mx:Label x="10" y="54" text="Note: These are real transactions NOT tests! " width="508" fontWeight="bold"/>
+
+			<mx:HBox top="80">
+				<mx:Form>
+					<mx:FormItem label="Donation:">
+						<mx:ComboBox dataProvider="[$10, $15, $20, $25, $50]" id="donationAmount"></mx:ComboBox>
+					</mx:FormItem>
+				</mx:Form>
+				<mx:Button icon="@Embed(source='checkout.gif')" fillAlphas="[0.0, 0.0, 0.0, 0.0]" borderColor="#FFFFFF" cornerRadius="0" fillColors="[#FFFFFF, #FFFFFF]" themeColor="#FFFFFF" id="googleCheckoutButton"/>
+			</mx:HBox>			
+
+		</mx:Canvas>
+		-->
+		
+	</mx:TabNavigator>
+	
+	<app:StatusComponent id="status" bottom="138" left="10" right="10" borderStyle="outset" cornerRadius="0"/>	
+	
+	<!-- Log -->
+	<mx:Label text="Log:" fontWeight="bold" fontSize="16" top="424" left="10"/>
+	<mx:TextArea id="outputLabel" editable="false" focusEnabled="false" left="10" bottom="10" right="10" height="83"/>
+	
+	<!-- Login button -->
+	<mx:Button y="47" label="Login" id="loginButton" right="10"/>
+	
+</eg:Application>

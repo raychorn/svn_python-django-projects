@@ -1,0 +1,61 @@
+compile-all.py
+BEGIN !
+libname --> "C:/Python27/Lib/site-packages/paramiko-1.10.1-py2.7.egg/paramiko" ...
+__libname__ --> "C:/Python27/Lib/site-packages/paramiko-1.10.1-py2.7.egg/paramiko" ...
+fp --> "C:\Python27\Lib\site-packages\paramiko-1.10.1-py2.7.egg\paramiko" ...
+_bias --> "C:\Python27\Lib\site-packages\paramiko-1.10.1-py2.7.egg" ...
+_bias_name --> "paramiko" ...
+_is_target_folder_valid --> "True" ...
+Listing C:\Python27\Lib\site-packages\paramiko-1.10.1-py2.7.egg\paramiko ...
+Can't list C:\Python27\Lib\site-packages\paramiko-1.10.1-py2.7.egg\paramiko
+Collecting .pyc files... There are NO .pyc files.
+Collecting .pyo files... There are NO .pyo files.
+Making dist folder... Done !
+Collecting .py files again...
+Collecting .pyc files again...
+INFO: _use_zipfile=True
+Moving .pyc --> "T:\@Vyper Logix Corp\@Projects\python-projects\@lib\12-13-2011-01\dist_2.7\paramiko_2_7.zip" ...
+Moving .py --> "T:\@Vyper Logix Corp\@Projects\python-projects\@lib\12-13-2011-01\dist_2.7\paramiko_2_7_source.zip" ...
+(+++) _use_zipfile=True
+BEGIN: .pyc files
+END!!! .pyc files
+
+
+BEGIN: .py files
+END!!! .py files
+DEBUG: (@@@.3) cwd=T:\@Vyper Logix Corp\@Projects\python-projects\@lib\12-13-2011-01
+DEBUG: (@@@.4) toks[-1]=12-13-2011-01
+DEBUG: (@@@.4) toks[-1]=@lib
+DEBUG: (@@@.1) T:\@Vyper Logix Corp\@Projects\python-projects\@lib\12-13-2011-01 --> T:\@Vyper Logix Corp\@Projects\python-projects
+
+
+BEGIN: .zip files
+_mode (438) --> 110110110
+438 and 128 --> 128
+438 and 256 --> 256
+_mode (438) --> 110110110
+438 and 128 --> 128
+438 and 256 --> 256
+DEBUG: Date check, 1409871070 > 1409871415=False
+DEBUG: T:\@Vyper Logix Corp\@Projects\python-projects\@lib\12-13-2011-01\dist_2.7\vyperlogix_2_7_source.zip --> T:\@Vyper Logix Corp\@Projects\python-projects\_google_app_engine-projects\djangononrelsample\zip-packages\vyperlogix_2_7_source.zip
+DEBUG: src_stat_data={'ST_CTIME': '1409871070=Thu Sep 04 17:51:10 2014', 'ST_MTIME': '1409871073=Thu Sep 04 17:51:13 2014', 'ST_NLINK': 0, 'ST_GID': 0, 'ST_INO': 0L, 'ST_DEV': 0, 'ST_SIZE': 3758793L, 'ST_MODE': '200 or "S_IWRITE,S_IREAD"', 'ST_UID': 0, 'ST_ATIME': '1409874515=Thu Sep 04 18:48:35 2014'}
+DEBUG: dest_stat_data={'ST_CTIME': '1409871415=Thu Sep 04 17:56:55 2014', 'ST_MTIME': '1409871415=Thu Sep 04 17:56:55 2014', 'ST_NLINK': 0, 'ST_GID': 0, 'ST_INO': 0L, 'ST_DEV': 0, 'ST_SIZE': 3758793L, 'ST_MODE': '200 or "S_IWRITE,S_IREAD"', 'ST_UID': 0, 'ST_ATIME': '1409874515=Thu Sep 04 18:48:35 2014'}
+DEBUG: Performing copy T:\@Vyper Logix Corp\@Projects\python-projects\@lib\12-13-2011-01\dist_2.7\vyperlogix_2_7_source.zip --> T:\@Vyper Logix Corp\@Projects\python-projects\_google_app_engine-projects\djangononrelsample\zip-packages\vyperlogix_2_7_source.zip.
+
+
+_mode (438) --> 110110110
+438 and 128 --> 128
+438 and 256 --> 256
+_mode (438) --> 110110110
+438 and 128 --> 128
+438 and 256 --> 256
+DEBUG: Date check, 1409871070 > 1409871415=False
+DEBUG: T:\@Vyper Logix Corp\@Projects\python-projects\@lib\12-13-2011-01\dist_2.7\vyperlogix_2_7_source.zip --> T:\@Vyper Logix Corp\@Projects\python-projects\_google_app_engine-projects\vyperlogixv2\zip-packages\vyperlogix_2_7_source.zip
+DEBUG: src_stat_data={'ST_CTIME': '1409871070=Thu Sep 04 17:51:10 2014', 'ST_MTIME': '1409871073=Thu Sep 04 17:51:13 2014', 'ST_NLINK': 0, 'ST_GID': 0, 'ST_INO': 0L, 'ST_DEV': 0, 'ST_SIZE': 3758793L, 'ST_MODE': '200 or "S_IWRITE,S_IREAD"', 'ST_UID': 0, 'ST_ATIME': '1409874515=Thu Sep 04 18:48:35 2014'}
+DEBUG: dest_stat_data={'ST_CTIME': '1409871415=Thu Sep 04 17:56:55 2014', 'ST_MTIME': '1409871415=Thu Sep 04 17:56:55 2014', 'ST_NLINK': 0, 'ST_GID': 0, 'ST_INO': 0L, 'ST_DEV': 0, 'ST_SIZE': 3758793L, 'ST_MODE': '200 or "S_IWRITE,S_IREAD"', 'ST_UID': 0, 'ST_ATIME': '1409874515=Thu Sep 04 18:48:35 2014'}
+DEBUG: Performing copy T:\@Vyper Logix Corp\@Projects\python-projects\@lib\12-13-2011-01\dist_2.7\vyperlogix_2_7_source.zip --> T:\@Vyper Logix Corp\@Projects\python-projects\_google_app_engine-projects\vyperlogixv2\zip-packages\vyperlogix_2_7_source.zip.
+
+
+END!!! .zip files
+(+++) Done !
+END !

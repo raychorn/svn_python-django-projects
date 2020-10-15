@@ -1,0 +1,3 @@
+# --port=8888 "Z:\python projects\_google_app_engine-projects\django-template\djangoapp"
+
+# --port=8888 "Z:\python projects\_google_app_engine-projects\django-template\vyperlogix"

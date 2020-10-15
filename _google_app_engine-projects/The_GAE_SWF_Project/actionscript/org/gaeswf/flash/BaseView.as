@@ -1,0 +1,1 @@
+﻿package org.gaeswf.flash{	import flash.display.MovieClip;		import org.gaeswf.Service;		public class BaseView extends flash.display.MovieClip	{		// Execute: Makes a service call		protected function execute(serviceName:String, ...args)		{			// Add the current 			args.unshift(this);			args.unshift(serviceName);			Service.call.apply(Service.call, args);		}	}}

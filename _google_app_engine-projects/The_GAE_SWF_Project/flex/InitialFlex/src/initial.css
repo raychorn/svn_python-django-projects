@@ -1,0 +1,27 @@
+Panel {
+   borderStyle: solid;
+   borderThickness: 0;
+   roundedBottomCorners: true;
+   cornerRadius: 23;
+   headerHeight: 43;
+   headerColors: #000033, #0066ff;
+   footerColors: #0033ff, #0066ff;
+   backgroundColor: #0099ff;
+   dropShadowEnabled: true;
+   titleStyleName: "mypanelTitle";
+}
+
+.mypanelTitle {
+   letterSpacing: 0;
+   color: #ffffff;
+   fontFamily: Arial;
+   fontSize: 20;
+   fontWeight: normal;
+}
+
+
+Label
+{
+	color: #FFFFFF;
+	fontWeight: bold;
+}

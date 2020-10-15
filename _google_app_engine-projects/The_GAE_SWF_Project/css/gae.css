@@ -1,0 +1,21 @@
+/* 
+	Overrides of YUI Reset-Fonts-Grids specifically for The GAE SWF Project site
+*/
+body {padding: 0px; margin:0px; background-image: url('/images/gaeswf_bg.gif'); background-repeat: repeat-x;}
+h1 {font-size: 197%; /* 26pt */ margin-bottom: .5em; }
+h2 {font-size: 138.5%; /* 18pt */ margin-top: .75em; margin-bottom: .75em;}
+h3 {font-size: 123.1%; /* 16pt */}
+p {margin-top: .75em; margin-bottom: .75em;}
+li {margin-bottom: 2.5%;}
+#hd {padding-bottom:10px; margin: 0pt 20pt 0pt 20pt;}
+#bd {margin: 0pt 20pt 0pt 20pt;}
+#ft {font-size: 85%; /* 11pt */ padding: 20pt 20pt 0pt 20pt; background-image:url('/images/gaeswf_footer_bg.gif'); background-repeat: repeat-x; overflow: visible;}
+#imageRight {position:absolute; right:0;}
+#doc3 {margin:0pt;}
+#download {margin-bottom:-.25em;} /* Just this once */
+#additionalInfo {font-size: 77%;}
+#example{margin-bottom:10pt;}
+#sourceLink{font-size: 138.5%;}
+
+/* Makes the other columns go over the first */
+.yui-g { position:relative;}

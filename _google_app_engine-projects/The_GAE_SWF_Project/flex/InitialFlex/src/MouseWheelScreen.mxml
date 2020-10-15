@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eg:MouseWheel 
+	xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns:eg="org.gaeswf.examples.initial.*" 
+	label="Mouse wheel"
+	width="100%" height="100%"
+>
+	<mx:Label text="The mouse wheel and OS X (a love story)" fontSize="16" fontWeight="bold" width="508" left="10" top="10"/>
+	<mx:Text htmlText="Mouse wheel support is not present in Flash Player for OS X. &lt;a href='http://hasseg.org/blog/?p=3\'&gt;ExternalMouseWheelSupport&lt;/a&gt; by Ali Rantakari fixes that. Try it on the list box below." width="508" height="37" left="10" top="43"/>
+	<mx:List id="listBox" dataProvider="{quoteInPieces}" left="10" right="10" height="95" top="90"></mx:List>
+</eg:MouseWheel>

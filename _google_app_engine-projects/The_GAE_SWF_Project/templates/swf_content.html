@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block head %}
+	<script type="text/javascript" src="/js/swfobject.js" ></script>
+	<script type="text/javascript" src="/js/swfaddress.js"></script>
+	<script type="text/javascript" src="/js/textresizedetector.js"></script>
+	<script type="text/javascript" src="/js/swfresize.js"></script>
+	<script type="text/javascript">
+	    var mw_flashMovieId = "swf"; // the id/name of your flash app's HTML DOM element     
+	    var mw_flashContainerId = "example"; // the id/name of the flash element's surrounding div element 
+	</script>
+	<script src="/js/osxmousewheel.js" type="text/javascript"></script>
+{% endblock %}
+
+{% block content %}
+	<div id="example" style="max-width: {{width}}px; height: {{height}}px;">{{title}}</div>
+	<div id="description">{{description}}</div>
+	<script type="text/javascript"> 
+    	// <![CDATA[
+		var so = new SWFObject("/swfs/preloader.swf", "swf", "100%", "100%", "9"); 
+		so.addVariable("swf", "{{swf}}")
+		so.write("example");
+		// ]]>
+	</script>
+{% endblock %}

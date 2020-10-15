@@ -1,0 +1,38 @@
+application: pypi-resources
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: .*
+  script: django_bootstrap.py
+
+- url: /(.*\.(gif|png|jpg))
+  static_files: static/images/\1
+  upload: static/(.*\.(gif|png|jpg))
+
+- url: /favicon\.ico
+  static_files: static/favicon.ico
+  upload: static/favicon.ico
+
+- url: /robots\.txt
+  static_files: static/robots.txt
+  upload: static/robots.txt
+
+
+skip_files: |
+ ^(.*/)?(
+ (app\.yaml)|
+ (app\.yml)|
+ (index\.yaml)|
+ (index\.yml)|
+ (#.*#)|
+ (.*~)|
+ (.*\.py[co])|
+ (.*/RCS/.*)|
+ (\..*)|
+ (utilities/.*)|
+ (tests/.*)|
+ (docs/.*)|
+ )$
+ 

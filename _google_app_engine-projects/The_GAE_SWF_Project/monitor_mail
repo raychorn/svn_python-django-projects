@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Monitoring email at port 5000."
+python tools/smtps.py 5000

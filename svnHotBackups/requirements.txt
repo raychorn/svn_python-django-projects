@@ -1,0 +1,3 @@
+boto==2.49.0
+pycryptodome==3.9.8
+pywin32==228

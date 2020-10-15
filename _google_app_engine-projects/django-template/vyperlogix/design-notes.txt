@@ -1,0 +1,15 @@
+Design Notes:
+    
+    Template blobs consist of HTML with embedded {{ name }} references into which named templates are injected into.
+    
+    Pickle blobs consist of name,value pairs that define named pages of content.
+    
+    Pages of content are identified to the system as part of a URL such as the following:
+    
+    /page1/ that loads the Pickle Blob named "page1".
+    
+    Pickle Blobs reference a named Template Blob.
+    
+    A default Template is used when there is no named page as part of the URL.
+    
+    Pickle Blobs also name a parent page so that a Menu can be built for a site in an automated manner.

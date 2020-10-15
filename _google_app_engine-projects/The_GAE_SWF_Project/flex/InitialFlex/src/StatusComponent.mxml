@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eg:Status 
+	xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns:eg="org.gaeswf.examples.initial.*" 
+	width="100%" height="24" backgroundColor="0xa2c4e5"
+>
+	<mx:Style>
+		/* Embed the typeface so the text fades */
+        @font-face 
+        {
+            font-family: Arial;
+
+            src: url("arial.ttf");
+            unicode-range:
+                U+0020-U+0040, /* Punctuation, Numbers */
+                U+0041-U+005A, /* Upper-Case A-Z */
+                U+005B-U+0060, /* Punctuation and Symbols */
+                U+0061-U+007A, /* Lower-Case a-z */
+                U+007B-U+007E; /* Punctuation and Symbols */
+        }
+
+        .StatusStyle 
+        { 
+            font-family: Arial; 
+            font-size: 10pt;    
+        }
+	</mx:Style>
+	<mx:Label id="messageLabel" width="100%" top="-1" styleName="StatusStyle" textAlign="center" fontSize="14"/>
+</eg:Status>

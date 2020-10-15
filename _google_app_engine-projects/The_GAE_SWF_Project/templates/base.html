@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>{% block title %}{% endblock %}</title>
+	<link rel="stylesheet" href="/css/reset-fonts-grids.css" type="text/css">
+	<link rel="stylesheet" href="/css/dialog.css" media="screen"> 
+	<link rel="stylesheet" href="/css/gae.css" type="text/css">
+   {% block head %}{% endblock %}
+</head>
+<body>
+<div id="doc3" class="yui-t7">
+   <div id="hd"><a href="/"><img src="/images/gaeswf.jpg" width="500" height="150" alt="The GAE SWF Project: Flash and Flex examples for Google App Engine (image links to home)."/></a><a href="/"><img id="imageRight" alt="The GAE SWF Project: Knowledge and tools to help you build Flash and Flex apps on Google App Engine (image links to home)." src="/images/gaeswf_header_text.png" width="577" height="150"></a></div>
+   <div id="bd">
+	<div class="yui-g">
+    <div class="yui-u first">{% block content %}{% endblock %}</div>
+    <div class="yui-g">
+        <div class="yui-u first">
+			<h1 id="download">Download</h1>
+			<div class="dialog">
+				<div class="content">
+					<div class="t"></div>
+					<p>
+						<a id="sourceLink" href="http://aralbalkan.com/downloads/The_GAE_SWF_Project_1.63.zip">Source code</a><br/>
+						<span id="additionalInfo">Version 1.63, 4MB.</span><br>
+					</p>
+				</div>
+				<div class="b"><div></div></div>
+			</div>
+
+			<h1>Online demos</h1>
+			<ul>
+				<li>
+					<h2><a href="/examples/initial/flash">Flash 9 Client</a></h2>
+					
+					<h2><a href="/examples/initial/flex">Flex 3 Client</a></h2>
+					
+					<p>The initial demo uses the Google App Engine <a href="http://code.google.com/appengine/docs/users/" title="The Users API - Google App Engine - Google Code">Users API</a>, <a href="http://code.google.com/appengine/docs/datastore/" title="The Datastore API - Google App Engine - Google Code">DataStore API</a>, and <a href="http://code.google.com/appengine/docs/mail/" title="The Mail API - Google App Engine - Google Code">Mail API</a>.</p></li>
+			</ul>
+			
+	        {% block column2 %}{% endblock %}
+	
+	</div>
+        <div class="yui-u">
+	<h1>Links</h1>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="http://aralbalkan.com">My blog</a></li>
+		<li><a href="http://twitter.com/aral">Follow me on Twitter</a></li>
+		<li><a href="http://svn1.cvsdude.com/osflash/gaeswf">Subversion repository</a></li>
+		<li><a href="http://code.google.com/appengine/" title="Google App Engine - Google Code">Google App Engine</a></li>
+		<li><a href="http://osflash.org" title="Open Source Flash">OSFlash</a></li>
+		<li><a href="http://pyamf.org">PyAMF</a></li>
+		<li><a href="http://code.google.com/p/swfobject/" title="swfobject - Google Code">SWFObject</a></li>
+		<li><a href="http://www.asual.com/swfaddress/" title="Asual | SWFAddress - Deep linking for Flash and Ajax">SWFAddress</a></li>
+		<li><a href="http://aralbalkan.com/745" title="Making Flash movies obey browser text size changes at Aral Balkan">Make Flash obey text size changes</a></li>
+		<li><a href="http://developer.yahoo.com/flash/astra-flash/" title="Yahoo! Developer Network - Flash Developer Center - ASTRA Flash Components">Yahoo Astra Flash components</a></li>
+		<li><a href="http://www.uza.lt/codex/as3-global-object/" title="Uza&#8217;s Blog &#038; More   &raquo; AS3 Global Object">Uza's AS3 Global Object</a></li>
+		<li><a href="http://code.google.com/p/kitchensynclib/" title="kitchensynclib - Google Code">KitchenSync AS3 sequencing library</a></li>
+		<li><a href="http://hasseg.org/blog/?p=3" title="OS X Mouse wheel support for Flex 2 applications : hasseg.org">ExternalMouseWheelSupport</a> and <a href="http://blog.pixelbreaker.com/flash/as30-mousewheel-on-mac-os-x/" title="pixelbreaker : AS3.0 MouseWheel on Mac OS X">PixelBreaker</a></li>
+		<li><a href="http://developer.yahoo.com/yui/grids/" title="Yahoo! UI Library: Grids CSS">YUI Grids CSS</a></li>
+		<li><a href="http://www.schillmania.com/content/projects/even-more-rounded-corners/" title="Even More Rounded Corners With CSS - Schillmania.com">Even more rounded corners with CSS</a></li>
+		<li><a href="http://code.google.com/appengine/" title="Google App Engine - Google Code"><img src="http://code.google.com/appengine/images/appengine-noborder-120x30.gif"
+				alt="Powered by Google App Engine" /></a></li>
+	</ul>
+	        </div>
+    </div>
+</div>
+
+	</div>
+   <div id="ft">
+	<p>The GAE SWF Project is an independent, open source initiative by Aral Balkan to help Flash and Flex developers get up and running quickly with Google App Engine. It is in no way affiliated with Google and/or Adobe Systems. The Google App Engine name and logo are trademarks or registered trademarks of Google. Adobe Flash and Adobe Flex are trademarks or registered trademarks of Adobe Systems, Inc. All original content on this site is licensed under the <a href="http://creativecommons.org/licenses/by/2.0/uk/" title="Creative Commons Attribution 2.0 UK: England &amp; Wales">Creative Commons Attribution 2.0 UK license</a>. All sample applications are licensed under the <a href="http://www.opensource.org/licenses/mit-license.php" title="Open Source Initiative OSI - The MIT License:Licensing | Open Source Initiative">open source MIT License</a>. For the full license text, please see the LICENSE.txt file and the individual licenses in the source code for the various components. Copyright &copy; 2008 <a href="http://some-site.com/">Aral Balkan</a>.</p>
+	</div>
+</div>
+</body>
+</html>
